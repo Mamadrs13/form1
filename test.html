@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mohammad</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<form action="https://webhook.site/15a9187d-a2a3-454e-a9a5-d83218ce1285" method="post">
+<fieldset>
+    <legend>ثبت نام</legend>
+    <div>
+    <label for="nm">نام:</label> <br>
+    <input type="text" name="name" id="nm">
+    <br> <br>
+    <label for="nj">نام خانوادگی:</label> <br>
+    <input type="text" name="fname" id="nj">
+    <br> <br>
+    <label for="nh">ایمیل:</label> <br>
+    <input type="email" name="email" id="nh" placeholder="@gmail.com">
+</div>
+    
+     <div>
+     <label for="nk">نوع عضویت</label>
+     <select name="نوع عضویت" id="nk">
+        <option value="طلایی">طلایی</option>
+        <option value="نقره ایی">نقره ایی</option> 
+        <option value="برنزی">برنزی</option>
+    </select>
+    <br> <br>
+    <label for="">شیوه ی پرداخت</label> 
+    <br>
+<label for="">نقدی</label>
+    <input type="radio" name="pay" value="نقدی">
+    <br>
+    <label for="">آنلاین</label>
+    <input type="radio" name="pay" value="آنلاین">
+    <br>
+    <label for="">چک</label>
+    <input type="radio" name="pay" value="چک">
+    <br> <br>
+    <label for="">راه های ارتباطی</label>
+    <br>
+    <label for="no">ایمیل</label>
+    <input type="checkbox" name="ways[]" value="ایمیل" id="no">
+    <br>
+    <label for="nu">موبایل</label>
+    <input type="checkbox" name="ways[]" value="موبایل" id="nu">
+</div>
+<input type="submit" value="ارسال" id="xy">
+</fieldset> 
+</form>
+</body>
+</html>
